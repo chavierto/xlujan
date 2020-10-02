@@ -24,12 +24,16 @@ a:link {
 	color: rgba(0, 0, 0, 1);
 }
 
-a:hover {
+h1 a:hover {
 	color: #999999;
 }
 
+a:hover {
+	color: #227744;
+}
+
 a:visited {
-	color: rgba(150, 150, 150, 1);
+	color: rgba(75, 75, 75, 1);
 }
 
 h1 {
