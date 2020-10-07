@@ -24,21 +24,14 @@ a:link {
 	color: rgba(0, 0, 0, 1);
 }
 
-h1 a:hover {
-	color: #999999;
+a:visited {
+	color: rgba(75, 75, 75, 1);
 }
 
 a:hover {
 	color: #999999;
 }
 
-b a:hover {
-	color: #999999;
-}
-
-a:visited {
-	color: rgba(75, 75, 75, 1);
-}
 
 h1 {
 	font-family: 'Bebas Neue', cursive;
