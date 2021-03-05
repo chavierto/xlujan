@@ -5,7 +5,7 @@ import InfoPanel from './InfoPanel';
 import './App.css';
 import PostsPanel from './PostsPanel';
 
-function App() {
+function App(posts) {
 	return (
 		<div className='App'>
 			<nav>
