@@ -46,10 +46,11 @@ function PostsPanel() {
 							</h3>
 							<h3>
 								<a href={post.github} target='_blank' rel='noreferrer'>
-									Link to Github repo.
+									Link to Github repo
 								</a>
 							</h3>
 						</p>
+						<br></br>
 					</div>
 				);
 			})}
