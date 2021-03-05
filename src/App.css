@@ -1,4 +1,4 @@
-nav {
+.nav {
 	display: flex;
 	justify-content: space-between;
 	max-width: 560px;
@@ -32,7 +32,6 @@ a:hover {
 	color: #999999;
 }
 
-
 h1 {
 	font-family: 'Bebas Neue', cursive;
 	font-weight: normal;
@@ -41,6 +40,13 @@ h1 {
 }
 
 h2 {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	font-size: 1.5rem;
+	padding: 0;
+}
+
+h3 {
 	font-size: 15px;
 	/* margin-top: 30px; */
 	/* margin-bottom: 50px; */
@@ -48,6 +54,9 @@ h2 {
 	text-align: justify;
 }
 
+h5 {
+	padding: 0;
+}
 p {
 	font-size: 14px;
 	text-align: justify;
@@ -58,12 +67,13 @@ p {
 	border-radius: 50%;
 }
 
-.vids {
+.media {
 	width: 300px;
 	height: 168.75px;
 }
 
 footer {
+	padding: 0rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -71,7 +81,7 @@ footer {
 }
 
 @media (min-width: 560px) {
-	.vids {
+	.media {
 		width: 560px;
 		height: 315px;
 	}
