@@ -1,5 +1,16 @@
 const posts = [
 	{
+		id: 3,
+		url: 'https://second-opinion.netlify.app/',
+		title: 'Second Opinion',
+		img:
+			'https://user-images.githubusercontent.com/62493112/110082367-3f27c900-7d5b-11eb-8e3c-db9685f8c8a1.jpeg',
+		body:
+			'First place winner in a recent Hackathon tackling healthcare in a remote world. Using the prompt #RemoteHealthcareAccess, my team worked for three days ideating, designing and building "2ndOpinion". Inspired by the story of a patient who was misdiagnosed with a rare form of blood cancer and underwent 18 months of chemotherapy and its side effects, we developed a platform that lets patients get a second opinion on their diagnoses from medical professionals.',
+		videoLink: null,
+		github: 'https://github.com/February-Hackathon/opinions',
+	},
+	{
 		id: 2,
 		url: 'https://record-collection-xl.herokuapp.com/',
 		title: 'Record Collection',
