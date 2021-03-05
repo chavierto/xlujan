@@ -39,7 +39,7 @@ function PostsPanel() {
 						{/* Display post body with link to deployed app & github repo */}
 						<br></br>
 						<br></br>
-						{post.body}
+						<p>{post.body}</p>
 						<h3>
 							<a href={post.url} target='_blank' rel='noreferrer'>
 								Link to deployed app
