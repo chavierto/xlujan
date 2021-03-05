@@ -8,11 +8,11 @@ function PostsPanel() {
 			return (
 				<iframe
 					title={post.title}
-					class='media'
+					className='media'
 					src={post.videoLink}
-					frameborder='0'
+					frameBorder='0'
 					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-					allowfullscreen></iframe>
+					allowFullScreen></iframe>
 			);
 		} else {
 			return <img alt={post.title} className='media' src={post.img}></img>;
@@ -37,19 +37,19 @@ function PostsPanel() {
 						{mediaChooser(post)}
 
 						{/* Display post body with link to deployed app & github repo */}
-						<p>
-							{post.body}
-							<h3>
-								<a href={post.url} target='_blank' rel='noreferrer'>
-									Link to deployed app
-								</a>
-							</h3>
-							<h3>
-								<a href={post.github} target='_blank' rel='noreferrer'>
-									Link to Github repo
-								</a>
-							</h3>
-						</p>
+
+						{post.body}
+						<h3>
+							<a href={post.url} target='_blank' rel='noreferrer'>
+								Link to deployed app
+							</a>
+						</h3>
+						<h3>
+							<a href={post.github} target='_blank' rel='noreferrer'>
+								Link to Github repo
+							</a>
+						</h3>
+
 						<br></br>
 					</div>
 				);
