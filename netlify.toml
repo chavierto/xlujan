@@ -1,4 +1,0 @@
-[build]
-base = "xlujan/"
-publish = "xlujan/build/"
-command = "npm run build"
