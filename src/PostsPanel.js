@@ -37,7 +37,7 @@ function PostsPanel() {
 						{mediaChooser(post)}
 
 						{/* Display post body with link to deployed app & github repo */}
-
+						<br></br>
 						{post.body}
 						<h3>
 							<a href={post.url} target='_blank' rel='noreferrer'>
